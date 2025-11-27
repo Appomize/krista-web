@@ -1,0 +1,37 @@
+# https://www.robotstxt.org/robotstxt.html
+# Robots.txt for Krista Salon - Kanpur
+
+# Allow all search engines
+User-agent: *
+Allow: /
+Allow: /#services
+Allow: /#offers
+Allow: /#gallery
+Allow: /#reviews
+Allow: /#team
+Allow: /#contact
+
+# Disallow admin and private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Allow specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay (optional, helps with server load)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://kristasalon.com/sitemap.xml
+
+# Host (preferred domain)
+Host: https://kristasalon.com
+
